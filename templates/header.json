@@ -1,0 +1,10 @@
+{
+    "Authorization": "Bearer @AuthorizationToken",
+    "Content-Type": "application/json",
+    "Client-Login": "@Client-Login",
+    "Accept-Language": "ru",
+    "processingMode": "auto",
+    "skipReportHeader": "true",
+    "skipColumnHeader": "false",
+    "skipReportSummary": "true"
+}

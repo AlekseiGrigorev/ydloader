@@ -1,0 +1,10 @@
+# config.yml - ydloader configuration file
+db: # mysql database with integrations and logins information
+  host: 
+  port: 
+  database: 
+  username: 
+  password: 
+http:
+  timeout: 180 # seconds
+  reportsurl: https://api.direct.yandex.com/json/v5/reports

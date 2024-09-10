@@ -1,0 +1,38 @@
+{
+    "params": {
+        "SelectionCriteria": {
+            "DateFrom": "@DateFrom",
+            "DateTo": "@DateTo",
+            "Filter": []
+        },
+        "ReportType": "AD_PERFORMANCE_REPORT",
+        "DateRangeType": "CUSTOM_DATE",
+        "Format": "TSV",
+        "IncludeVAT": "YES",
+        "IncludeDiscount": "NO",
+        "FieldNames": [
+            "Date",
+            "Impressions",
+            "Clicks",
+            "Cost",
+            "CampaignId",
+            "AdId",
+            "AvgClickPosition",
+            "AvgImpressionPosition",
+            "AvgTrafficVolume",
+            "Conversions",
+            "Revenue",
+            "AdNetworkType",
+            "Device",
+            "Age",
+            "Gender",
+            "Placement",
+            "Slot",
+            "LocationOfPresenceName"
+        ],
+        "ReportName": "@ReportName",
+        "Page": {
+            "Limit": 3000000
+        }
+    }
+}
